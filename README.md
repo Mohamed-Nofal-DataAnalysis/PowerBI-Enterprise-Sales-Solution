@@ -32,7 +32,6 @@ Enterprise Sales Performance dashboard built with **Power BI**. Features advance
 * **Matrix/Table Visuals:** For detailed breakdown and RLS validation (Country % of Continent Sales).
 
 ---
----
 
 ## ⚙️ Data Model
 
@@ -57,7 +56,6 @@ Advanced functions from the language **DAX (Data Analysis Expressions)** were ex
     * **Windowing/Range Functions:** Use of `DATEADD` and `DATEINPERIOD` to create advanced future-dated time period analysis (e.g., next 1 week, 1 month, 6 months for future orders).
 
 ---
----
 
 ## 📊 Key Dashboards
 
@@ -79,6 +77,7 @@ Four main dashboards, along with specialized Drill-Through and analysis pages, w
 * **Focus:** Analyzing marketing campaign performance (Clicks) across custom and dynamic time periods (YTD, Last 15/30/45 days, and custom period comparisons).
 
 ---
+
 
 ## ❓ Questions (KPIs) Answered Instantly Across Dashboards
 
