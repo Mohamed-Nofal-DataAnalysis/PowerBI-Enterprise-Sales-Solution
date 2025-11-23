@@ -88,6 +88,7 @@ Four main dashboards, along with specialized Drill-Through and analysis pages, w
 <img src="https://github.com/Mohamed-Nofal-DataAnalysis/PowerBI-Enterprise-Sales-Solution/blob/main/Store%20Dashboard.png">
 <img src="https://github.com/Mohamed-Nofal-DataAnalysis/PowerBI-Enterprise-Sales-Solution/blob/main/Marketing%20Dashboard.png">
 <img src="https://github.com/Mohamed-Nofal-DataAnalysis/PowerBI-Enterprise-Sales-Solution/blob/main/Model.png">
+
 ---
 
 ## ❓ Questions (KPIs) Answered Instantly Across Dashboards
