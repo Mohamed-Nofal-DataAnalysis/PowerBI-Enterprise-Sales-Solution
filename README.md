@@ -77,7 +77,16 @@ Four main dashboards, along with specialized Drill-Through and analysis pages, w
 * **Focus:** Analyzing marketing campaign performance (Clicks) across custom and dynamic time periods (YTD, Last 15/30/45 days, and custom period comparisons).
 
 ---
-
+## Dashboard Screenshots (Click to enlarge) :
+<img src="https://github.com/Mohamed-Nofal-DataAnalysis/PowerBI-Enterprise-Sales-Solution/blob/main/Sales%20Dashboard.png">
+<img src="https://github.com/Mohamed-Nofal-DataAnalysis/PowerBI-Enterprise-Sales-Solution/blob/main/Dril_Category%20Dashboard.png">
+<img src="https://github.com/Mohamed-Nofal-DataAnalysis/PowerBI-Enterprise-Sales-Solution/blob/main/Dril_Subcategory%20Dashboard.png">
+<img src="https://github.com/Mohamed-Nofal-DataAnalysis/PowerBI-Enterprise-Sales-Solution/blob/main/Region%20Dashboard.png">
+<img src="https://github.com/Mohamed-Nofal-DataAnalysis/PowerBI-Enterprise-Sales-Solution/blob/main/Dill_Region%20Dashboard.png">
+<img src="https://github.com/Mohamed-Nofal-DataAnalysis/PowerBI-Enterprise-Sales-Solution/blob/main/Store%20Dashboard.png">
+<img src="https://github.com/Mohamed-Nofal-DataAnalysis/PowerBI-Enterprise-Sales-Solution/blob/main/Marketing%20Dashboard.png">
+<img src="https://github.com/Mohamed-Nofal-DataAnalysis/PowerBI-Enterprise-Sales-Solution/blob/main/Model.png">
+---
 
 ## ❓ Questions (KPIs) Answered Instantly Across Dashboards
 
