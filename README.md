@@ -15,13 +15,6 @@ Enterprise Sales Performance dashboard built with **Power BI**. Features advance
 5.  **Dashboard Design & UX:** Creating two distinct, professionally formatted dashboards (Executive & Sales) using custom visuals, color coding, and alignment.
 6.  **Advanced Interactivity:** Integrating Drill-Throughs, dynamic Tooltips (3-year comparison), and button-based slicer interaction for marketing analysis.
 
-### Interactive Slicers (Synced Across All Pages)
-
-* **Year Slicer (Single-Select)**
-* **Month Slicer (Single-Select)**
-* **Country Slicer**
-* **Date Slicer (Day-level selection)**
-
 ### Visuals Used:
 
 * **KPI Cards / Gauges:** For displaying performance metrics (Sales, Profit, Orders) against targets and LY%.
@@ -30,6 +23,13 @@ Enterprise Sales Performance dashboard built with **Power BI**. Features advance
 * **Donut/Pie Charts:** For status breakdown (Sales by Status, T-Profit & T-Cost by Continent).
 * **Maps (Shape Map/Filled Map):** For geographical analysis of Sales/Profit distribution.
 * **Matrix/Table Visuals:** For detailed breakdown and RLS validation (Country % of Continent Sales).
+
+### Interactive Slicers (Synced Across All Pages)
+
+* **Year Slicer (Single-Select)**
+* **Month Slicer (Single-Select)**
+* **Country Slicer**
+* **Date Slicer (Day-level selection)**
 
 ---
 
