@@ -32,6 +32,17 @@ Enterprise Sales Performance dashboard built with **Power BI**. Features advance
 * **Matrix/Table Visuals:** For detailed breakdown and RLS validation (Country % of Continent Sales).
 
 ---
+---
+
+## ⚙️ Data Model
+
+The data model is built upon a **Star Schema/Snowflake Hybrid** design to ensure high efficiency and performance in analytical processes.
+
+* **Fact Table:** The central **Sales** table contains the sales metrics (Quantity, Amount, Profit, Cost, etc.) and links to all surrounding dimension tables.
+* **Dimension Tables:** Includes **Product**, **Stores**, **Geography**, **Date\_New**, **Promotion**, **Marketing**, and **Channel**.
+* **Relationships:** **One-to-Many (1:\*)** relationships were established to ensure correct filter propagation from dimensions to the fact table.
+
+---
 
 ## 🔢 Technical Achievement: Advanced DAX Measures
 
@@ -44,6 +55,28 @@ Advanced functions from the language **DAX (Data Analysis Expressions)** were ex
     * **Aggregation and Filtering:** Use of `CALCULATE`, `FILTER`, and `ALL`/`ALLEXCEPT`/`REMOVEFILTERS` to implement advanced calculations such as **Sales % of Continent Total** and target achievement logic.
     * **Conditional Logic:** Use of `IF`, `SWITCH`, and `HASONEVALUE` to create dynamic targeting logic and KPI performance tracking (Target Achievement Cards).
     * **Windowing/Range Functions:** Use of `DATEADD` and `DATEINPERIOD` to create advanced future-dated time period analysis (e.g., next 1 week, 1 month, 6 months for future orders).
+
+---
+---
+
+## 📊 Key Dashboards
+
+Four main dashboards, along with specialized Drill-Through and analysis pages, were developed:
+
+### 1. Executives Dashboard
+* **Focus:** Strategic metrics (Total Cost, T-Profit, Total Discount) and overall target performance.
+* **Geographic Analysis:** Distribution of Profit and Sales by Continent and Country, including a table analyzing the **Country's Contribution as a Percentage of Continent Sales (Context Control)**.
+
+### 2. Sales Dashboard
+* **Focus:** Detailed sales performance by product category and temporal trend.
+* **Features:** Display of main metrics (T-Sales, T-Profit, Total Orders) with achievement percentages, and a dynamic monthly trend comparison of Ordered vs. Delivered amounts.
+
+### 3. Drill-Down Pages (Category & Region)
+* **Category Overview:** In-depth analysis of the top sales category, displaying the **Top 5 Subcategories dynamically**, and tracking Discount vs. Profit.
+* **Region Overview (Drill-Through Target):** Regional performance analysis (US, North America), tracking total orders and sales vs. cost over the years.
+
+### 4. Marketing Dashboard
+* **Focus:** Analyzing marketing campaign performance (Clicks) across custom and dynamic time periods (YTD, Last 15/30/45 days, and custom period comparisons).
 
 ---
 
