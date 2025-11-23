@@ -15,22 +15,6 @@ Enterprise Sales Performance dashboard built with **Power BI**. Features advance
 5.  **Dashboard Design & UX:** Creating two distinct, professionally formatted dashboards (Executive & Sales) using custom visuals, color coding, and alignment.
 6.  **Advanced Interactivity:** Integrating Drill-Throughs, dynamic Tooltips (3-year comparison), and button-based slicer interaction for marketing analysis.
 
-### Visuals Used:
-
-* **KPI Cards / Gauges:** For displaying performance metrics (Sales, Profit, Orders) against targets and LY%.
-* **Bar/Column Charts:** Used for categorical breakdown (T-Sales by Product Category, T-Orders by Channel).
-* **Line Charts:** Essential for trend analysis (T-Sales over time, Monthly Trend comparison).
-* **Donut/Pie Charts:** For status breakdown (Sales by Status, T-Profit & T-Cost by Continent).
-* **Maps (Shape Map/Filled Map):** For geographical analysis of Sales/Profit distribution.
-* **Matrix/Table Visuals:** For detailed breakdown and RLS validation (Country % of Continent Sales).
-
-### Interactive Slicers (Synced Across All Pages)
-
-* **Year Slicer (Single-Select)**
-* **Month Slicer (Single-Select)**
-* **Country Slicer**
-* **Date Slicer (Day-level selection)**
-
 ---
 
 ## ⚙️ Data Model
@@ -40,6 +24,24 @@ The data model is built upon a **Star Schema/Snowflake Hybrid** design to ensure
 * **Fact Table:** The central **Sales** table contains the sales metrics (Quantity, Amount, Profit, Cost, etc.) and links to all surrounding dimension tables.
 * **Dimension Tables:** Includes **Product**, **Stores**, **Geography**, **Date\_New**, **Promotion**, **Marketing**, and **Channel**.
 * **Relationships:** **One-to-Many (1:\*)** relationships were established to ensure correct filter propagation from dimensions to the fact table.
+
+---
+## Visuals Used :
+
+* **KPI Cards / Gauges:** For displaying performance metrics (Sales, Profit, Orders) against targets and LY%.
+* **Bar/Column Charts:** Used for categorical breakdown (T-Sales by Product Category, T-Orders by Channel).
+* **Line Charts:** Essential for trend analysis (T-Sales over time, Monthly Trend comparison).
+* **Donut/Pie Charts:** For status breakdown (Sales by Status, T-Profit & T-Cost by Continent).
+* **Maps (Shape Map/Filled Map):** For geographical analysis of Sales/Profit distribution.
+* **Matrix/Table Visuals:** For detailed breakdown and RLS validation (Country % of Continent Sales).
+
+## Interactive Slicers (Synced Across All Pages) :
+
+* **Year Slicer (Single-Select)**
+* **Month Slicer (Single-Select)**
+* **Country Slicer**
+* **Date Slicer (Day-level selection)**
+
 
 ---
 
@@ -75,8 +77,8 @@ Four main dashboards, along with specialized Drill-Through and analysis pages, w
 
 ### 4. Marketing Dashboard
 * **Focus:** Analyzing marketing campaign performance (Clicks) across custom and dynamic time periods (YTD, Last 15/30/45 days, and custom period comparisons).
-
 ---
+
 ## Dashboard Screenshots (Click to enlarge) :
 <img src="https://github.com/Mohamed-Nofal-DataAnalysis/PowerBI-Enterprise-Sales-Solution/blob/main/Sales%20Dashboard.png">
 <img src="https://github.com/Mohamed-Nofal-DataAnalysis/PowerBI-Enterprise-Sales-Solution/blob/main/Dril_Category%20Dashboard.png">
